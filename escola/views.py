@@ -75,7 +75,7 @@ class ListaMatriculaEstudante(generics.ListAPIView):
     serializer_class = ListaMatriculasEstudanteSerializer
 
 class ListaMatriculaCurso(generics.ListAPIView):
-     """
+    """
     Descrição da View:
     - Lista Matriculas por id de Curso
     Parâmetros:
